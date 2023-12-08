@@ -1,0 +1,106 @@
+body{
+    margin: 0%; 
+    font-family: arial,sans-serif;
+}
+
+#main{
+    height: 100vh;
+}
+.titre{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    box-sizing:border-box;
+    padding: 10px;
+}
+
+menu{ 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+a {
+    background-color: rgb(24, 39, 79);
+    border-radius: 5px;
+    margin-right: 10px;
+    padding:7px;
+    color: rgb(255, 255, 255);
+}
+
+.projetperso_passion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+} 
+
+.futur{
+    background-color: rgb(255, 255, 255);
+    flex-basis: calc(80% / 2 - 20px);
+    margin:auto;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+}
+
+p{margin: 15px;
+    text-align: justify;
+    
+}
+
+.photo{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+}
+img{
+    flex-basis: calc(80% / 3 - 10px);
+    width: 20%;
+}
+
+.img1{margin-left: auto;
+    margin-right: auto ;
+    width: 40%;
+    height:250% ;
+
+}
+
+#fond{position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top:0px;
+    z-index: -10;
+    left: 0px;
+}
+
+.b2{
+    background-color: rgb(255, 255, 255);
+    flex-basis: calc(80% / 2 - 20px);
+    margin:auto;
+    border-radius: 10px;
+    text-align: left;
+    margin: 15px;
+    width: 80%;
+}
+.b3{
+    background-color: rgb(255, 255, 255);
+    margin:auto;
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    max-width: 50%;
+    justify-content: left;
+}
+.img2{margin-left: auto;
+    margin-right: auto ;
+    
+}
+.img3{margin-top: 10%;
+    height: 25%;
+    width: 35%;
+}
